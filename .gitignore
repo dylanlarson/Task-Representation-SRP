@@ -1,0 +1,11 @@
+Poster Resources/
+*__pycache__
+*.png
+*.pt
+*lightning_logs
+*.ckpt
+*.npy
+*Backup
+
+
+version_1/data/test_data_original_ids.pickle
