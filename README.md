@@ -4,12 +4,12 @@ This repository uses data and environments from https://github.com/HumanCompatib
 ## Setup
 Two environments are used.
 1. Environment as per https://github.com/HumanCompatibleAI/overcooked_ai.
-   This is only required to render the images, otherwise it is not required. The version 1 and 2 train/validation/test images are provided in a zip file (in data folder) for convenience.
+   This is only required to render the images, otherwise it is not required. The version 1 train/validation/test images are provided in 3 zip files (in /version_1/data/imgs/ folder) for convenience.
 2. Environment with pytorch and other additional libraries as per requirements.txt (I've been working on a few different machines so hopefully it is complete, main things are pytorch lightning, pandas, torchmetrics, torchvision, shap, grad-cam, install as required).
 
 ## Recreation procedure
 Seeds were not used so results may vary slightly.
-The procedures are based on version 1 as cross validation files were not cleaned and are incomplete (May be easier to adapt the cleaned files instead?). 
+The procedures are based on version 1 as version 2(cross validation) files were not cleaned and are incomplete (May be easier to adapt the cleaned files instead if you want to crossvalidate more). 
 Version 0 contains uncleaned files but may be easier to edit or follow as functions are included within he notebook and not in separate python files.
 
 Caution of lines which generate, save or load data/models. Comment relevant sections to save data and reduce re-running of sections but be careful of overwriting data.
